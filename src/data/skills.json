@@ -1,0 +1,37 @@
+[
+  { "id": "python", "name": "Python", "image": "python", "category": "ai" },
+  { "id": "sklearn", "name": "Scikit-learn", "image": "skitlearn", "category": "ai" },
+  { "id": "lightgbm", "name": "LightGBM", "image": "lightgbm", "category": "ai" },
+  { "id": "llm-rag", "name": "LLM & RAG", "image": "rag_llm", "category": "ai" },
+  { "id": "huggingface", "name": "Hugging Face", "image": "hugginngface", "category": "ai" },
+  { "id": "mlflow", "name": "MLflow", "image": "mlflow", "category": "ai" },
+
+  { "id": "docker", "name": "Docker", "image": "docker", "category": "mlops" },
+  { "id": "gh-actions", "name": "GitHub Actions", "image": "githubaction", "category": "mlops" },
+  { "id": "fastapi", "name": "FastAPI", "image": "fastapi", "category": "mlops" },
+  { "id": "pytest", "name": "Pytest", "image": "pytest", "category": "mlops" },
+  { "id": "swagger", "name": "Swagger", "image": "swagger", "category": "mlops" },
+  { "id": "yaml", "name": "YAML", "image": "yaml", "category": "mlops" },
+
+  { "id": "postgresql", "name": "PostgreSQL", "image": "postegresql", "category": "data" },
+  { "id": "sqlalchemy", "name": "SQLAlchemy", "image": "sqlalchemy", "category": "data" },
+  { "id": "api", "name": "REST API", "image": "api", "category": "data" },
+  { "id": "postman", "name": "Postman", "image": "postman", "category": "data" },
+
+  { "id": "react", "name": "React", "image": "react", "category": "web" },
+  { "id": "js", "name": "JavaScript", "image": "js", "category": "web" },
+  { "id": "html", "name": "HTML", "image": "html", "category": "web" },
+  { "id": "css", "name": "CSS", "image": "css", "category": "web" },
+  { "id": "sass", "name": "Sass", "image": "sass", "category": "web" },
+  { "id": "redux", "name": "Redux", "image": "redux", "category": "web" },
+  { "id": "node", "name": "Node.js", "image": "node", "category": "web" },
+  { "id": "yarn", "name": "Yarn", "image": "yarn", "category": "web" },
+  { "id": "figma", "name": "Figma", "image": "figma", "category": "web" },
+
+  { "id": "git", "name": "Git", "image": "git", "category": "tools" },
+  { "id": "github", "name": "GitHub", "image": "github", "category": "tools" },
+  { "id": "vscode", "name": "VS Code", "image": "visuel_studio", "category": "tools" },
+  { "id": "terminal", "name": "Terminal", "image": "terminal", "category": "tools" },
+  { "id": "devtools", "name": "DevTools", "image": "devtools", "category": "tools" },
+  { "id": "chatgpt", "name": "ChatGPT", "image": "chatgpt", "category": "tools" }
+]

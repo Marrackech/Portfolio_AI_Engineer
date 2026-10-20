@@ -1,0 +1,170 @@
+[
+  {
+    "id": "agent-ia-echecs",
+    "title": { "fr": "Agent IA pour l'apprentissage des échecs", "en": "AI agent for chess opening training" },
+    "description": {
+      "fr": "Agent pédagogique combinant échiquier interactif, moteur Stockfish, données Lichess et recherche RAG dans Milvus pour accompagner les jeunes joueurs.",
+      "en": "Educational agent combining an interactive board, the Stockfish engine, Lichess data and RAG search in Milvus to coach young chess players."
+    },
+    "image": "agent-ia", "fit": "cover", "bg": "#e8eef8",
+    "categories": ["llm"],
+    "tags": ["RAG", "Milvus", "Stockfish", "Agents IA"],
+    "github": "https://github.com/Marrackech/Agent_IA"
+  },
+  {
+    "id": "rag-evenements",
+    "title": { "fr": "Assistant RAG de recommandation d'événements", "en": "RAG assistant for event recommendations" },
+    "description": {
+      "fr": "Assistant basé sur une architecture RAG : index vectoriel FAISS, LangChain et Mistral, exposé via FastAPI, évalué avec Ragas et conteneurisé avec Docker.",
+      "en": "RAG-based assistant: FAISS vector index, LangChain and Mistral, served with FastAPI, evaluated with Ragas and containerized with Docker."
+    },
+    "image": "rag", "fit": "cover", "bg": "#23244d",
+    "categories": ["llm", "mlops"],
+    "tags": ["LangChain", "FAISS", "Mistral", "FastAPI", "Docker"],
+    "github": "https://github.com/Marrackech/puls-events"
+  },
+  {
+    "id": "llm-triage-medical",
+    "title": { "fr": "LLM fine-tuné pour le triage médical", "en": "Fine-tuned LLM for medical triage" },
+    "description": {
+      "fr": "Agent IA qui assiste le personnel soignant : collecte des symptômes, évaluation de la priorité, explication de la décision et traçabilité des échanges.",
+      "en": "AI agent assisting healthcare staff: symptom collection, priority assessment, explanation of the decision and traceability of interactions."
+    },
+    "image": "llm", "fit": "cover", "bg": "#0e1a33",
+    "categories": ["llm"],
+    "tags": ["Fine-tuning", "LLM", "Python"],
+    "github": "https://github.com/Marrackech/Finetunez_votre_propre_LLM_agent_IA_medical"
+  },
+  {
+    "id": "whisper-mlops",
+    "title": { "fr": "Transcription vocale avec Whisper", "en": "Speech-to-text with Whisper" },
+    "description": {
+      "fr": "Application de transcription et de traduction audio basée sur Whisper, déployée avec FastAPI, Docker et un pipeline CI/CD.",
+      "en": "Audio transcription and translation application built on Whisper, deployed with FastAPI, Docker and a CI/CD pipeline."
+    },
+    "image": "whisper", "fit": "cover", "bg": "#0b1630",
+    "categories": ["mlops", "llm"],
+    "tags": ["Whisper", "FastAPI", "Docker", "CI/CD"],
+    "github": "https://github.com/Marrackech/whisper-mlops-portfolio"
+  },
+  {
+    "id": "mlops-production",
+    "title": { "fr": "Scoring crédit en production : CI/CD et monitoring", "en": "Credit scoring in production: CI/CD and monitoring" },
+    "description": {
+      "fr": "API de scoring conteneurisée, pipeline CI/CD, logging des prédictions, analyse du data drift et optimisation des performances de l'API.",
+      "en": "Containerized scoring API, CI/CD pipeline, prediction logging, data drift analysis and API performance optimization."
+    },
+    "image": "mlflow2", "fit": "cover", "bg": "#0f3a63",
+    "categories": ["mlops", "ml"],
+    "tags": ["FastAPI", "Docker", "GitHub Actions", "Data drift"],
+    "github": "https://github.com/Marrackech/Confirmez_vos_competences_en_MLOps_Partie_2_2_04_06_2025"
+  },
+  {
+    "id": "mlops-mlflow",
+    "title": { "fr": "Scoring crédit et suivi d'expériences avec MLflow", "en": "Credit scoring and experiment tracking with MLflow" },
+    "description": {
+      "fr": "Modèle de défaut de paiement optimisé selon un score métier, avec suivi des expériences, Model Registry et serving via MLflow.",
+      "en": "Default-risk model optimized with a business cost score, with experiment tracking, Model Registry and serving through MLflow."
+    },
+    "image": "mlflow1", "fit": "cover", "bg": "#1b2a38",
+    "categories": ["mlops", "ml"],
+    "tags": ["MLflow", "Scikit-learn", "Model Registry"],
+    "github": "https://github.com/Marrackech/Initiez_vous_au_MLOps_partie_1_2"
+  },
+  {
+    "id": "deploiement-ml-api",
+    "title": { "fr": "API de déploiement d'un modèle de Machine Learning", "en": "Machine learning model deployment API" },
+    "description": {
+      "fr": "API REST FastAPI avec base PostgreSQL, tests Pytest, documentation Swagger et pipeline CI/CD GitHub Actions pour mettre un modèle en production.",
+      "en": "FastAPI REST API with a PostgreSQL database, Pytest tests, Swagger documentation and a GitHub Actions CI/CD pipeline to ship a model to production."
+    },
+    "image": "machine", "fit": "cover", "bg": "#cfd6dd",
+    "categories": ["mlops"],
+    "tags": ["FastAPI", "PostgreSQL", "Pytest", "GitHub Actions"],
+    "github": "https://github.com/Marrackech/Deployez_votre_modele_de_Machine_Learning"
+  },
+  {
+    "id": "segmentation-vetements",
+    "title": { "fr": "Segmentation de vêtements via l'API Hugging Face", "en": "Clothing segmentation with the Hugging Face API" },
+    "description": {
+      "fr": "Évaluation d'un modèle SegFormer interrogé via l'API Hugging Face sur des photos d'influenceurs, avec métriques de performance et estimation des coûts.",
+      "en": "Evaluation of a SegFormer model queried through the Hugging Face API on influencer photos, with performance metrics and cost estimation."
+    },
+    "image": "requete", "fit": "contain", "bg": "#ffffff",
+    "categories": ["vision"],
+    "tags": ["SegFormer", "Hugging Face", "REST API", "Python"],
+    "github": "https://github.com/Marrackech/top_influenceurs_2_15"
+  },
+  {
+    "id": "semi-supervise-images",
+    "title": { "fr": "Approches semi-supervisées en imagerie médicale", "en": "Semi-supervised learning for medical imaging" },
+    "description": {
+      "fr": "Extraction de features avec un CNN pré-entraîné, clustering et classification à partir de données partiellement annotées.",
+      "en": "Feature extraction with a pre-trained CNN, clustering and classification from partially labeled data."
+    },
+    "image": "traitementimages", "fit": "contain", "bg": "#ffffff",
+    "categories": ["vision", "dl"],
+    "tags": ["CNN", "Clustering", "Scikit-learn"],
+    "github": "https://github.com/Marrackech/approches_semi_supervisees_en_traitement_d_images_Haroun_Tanane"
+  },
+  {
+    "id": "cadrage-ia-fashion",
+    "title": { "fr": "Cadrage d'un projet IA de recommandation vestimentaire", "en": "Scoping an AI fashion recommendation project" },
+    "description": {
+      "fr": "Cadrage complet : POC, approches Computer Vision, architecture Azure, planning, coûts, ROI, scalabilité et conformité RGPD.",
+      "en": "Full project scoping: POC, Computer Vision approaches, Azure architecture, timeline, costs, ROI, scalability and GDPR compliance."
+    },
+    "image": "cadrage", "fit": "contain", "bg": "#ffffff",
+    "categories": ["vision"],
+    "tags": ["Computer Vision", "Azure", "RGPD"],
+    "github": "https://github.com/Marrackech/Cadrage_projet_IA_Fashion_insta"
+  },
+  {
+    "id": "rl-lunar-lander",
+    "title": { "fr": "Agent par apprentissage par renforcement", "en": "Reinforcement learning agent" },
+    "description": {
+      "fr": "Pilote automatique entraîné par apprentissage par renforcement pour l'atterrissage autonome d'un module lunaire (Gymnasium, Stable-Baselines3).",
+      "en": "Autopilot trained with reinforcement learning to land a lunar module autonomously (Gymnasium, Stable-Baselines3)."
+    },
+    "image": "rl", "fit": "cover", "bg": "#12284a",
+    "categories": ["dl"],
+    "tags": ["Gymnasium", "Stable-Baselines3", "Deep Learning"],
+    "github": "https://github.com/Marrackech/Apprentissage_Renforcee"
+  },
+  {
+    "id": "etl-multimodal",
+    "title": { "fr": "Pipeline ETL de données multimodales", "en": "Multimodal data ETL pipeline" },
+    "description": {
+      "fr": "Pipeline automatisé de collecte, transformation et monitoring de données texte et image pour l'analyse de fake news (Airflow, Streamlit).",
+      "en": "Automated pipeline to collect, transform and monitor text and image data for fake news analysis (Airflow, Streamlit)."
+    },
+    "image": "extract", "fit": "cover", "bg": "#1a2433",
+    "categories": ["data"],
+    "tags": ["Airflow", "Web scraping", "Streamlit", "ETL"],
+    "github": "https://github.com/Marrackech/extrayez_des_donnees_multimodales_de_sites_web"
+  },
+  {
+    "id": "consommation-batiments",
+    "title": { "fr": "Prédiction de la consommation énergétique de bâtiments", "en": "Building energy consumption prediction" },
+    "description": {
+      "fr": "Modèles de régression comparés sur les bâtiments non résidentiels de Seattle, avec feature engineering, validation croisée, GridSearchCV et interprétation.",
+      "en": "Regression models compared on Seattle's non-residential buildings, with feature engineering, cross-validation, GridSearchCV and interpretation."
+    },
+    "image": "anticiper", "fit": "contain", "bg": "#ffffff",
+    "categories": ["ml"],
+    "tags": ["Scikit-learn", "Pandas", "GridSearchCV"],
+    "github": "https://github.com/Marrackech/Anticipez_les_besoins_en_consommations_de_batiments_Haroun_Tanane"
+  },
+  {
+    "id": "attrition-employes",
+    "title": { "fr": "Prédiction de l'attrition des employés", "en": "Employee attrition prediction" },
+    "description": {
+      "fr": "Modèle de classification de la probabilité de démission à partir de données RH fusionnées, gestion du déséquilibre des classes et interprétation avec SHAP.",
+      "en": "Classification model estimating resignation probability from merged HR data, with class imbalance handling and SHAP interpretation."
+    },
+    "image": "classifier", "fit": "contain", "bg": "#ffffff",
+    "categories": ["ml"],
+    "tags": ["Scikit-learn", "SHAP", "Classification"],
+    "github": "https://github.com/Marrackech/Classifiez_automatiquement_des_informations_Haroun_Tanane"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "name": "Haroun Tanane",
+  "initials": "HT",
+  "title": { "fr": "AI Engineer", "en": "AI Engineer" },
+  "tagline": {
+    "fr": "Je conçois et déploie des solutions d'IA prêtes pour la production : API, MLOps, conteneurisation et monitoring de modèles.",
+    "en": "I design and deploy production-ready AI solutions: APIs, MLOps, containerization and model monitoring."
+  },
+  "bio": {
+    "fr": [
+      "Ingénieur en intelligence artificielle formé chez OpenClassrooms, passionné par l'écriture de code propre et maintenable.",
+      "Motivé par l'apprentissage continu et les défis techniques, je conçois des projets d'IA orientés mise en production : API, monitoring de modèles, conteneurisation et intégration continue.",
+      "Mon parcours m'a doté de solides compétences en conception et en développement, que je mets aujourd'hui au service de l'IA appliquée."
+    ],
+    "en": [
+      "AI engineer trained at OpenClassrooms, passionate about writing clean and maintainable code.",
+      "Driven by continuous learning and technical challenges, I design production-oriented AI projects: APIs, model monitoring, containerization and continuous integration.",
+      "My background gave me strong design and development skills, which I now apply to applied AI."
+    ]
+  },
+  "kpis": {
+    "level": 7,
+    "months": 9
+  },
+  "contact": {
+    "email": "Harountanane@gmail.com",
+    "phone": "+212 687 205 365",
+    "phoneHref": "+212687205365",
+    "city": { "fr": "Marrakech🌴", "en": "Marrakech🌴" },
+    "github": "https://github.com/Marrackech",
+    "huggingface": "https://huggingface.co/Marrackech",
+    "linkedin": "https://www.linkedin.com/in/haroun-tanane-/780ab6399"
+  }
+}

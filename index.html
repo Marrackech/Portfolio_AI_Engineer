@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+    <title>Haroun Tanane — AI Engineer | Machine Learning, MLOps, LLM &amp; RAG</title>
+    <meta
+      name="description"
+      content="Portfolio de Haroun Tanane, AI Engineer : projets de machine learning, MLOps, LLM &amp; RAG, API FastAPI et déploiement de modèles en production."
+    />
+    <meta name="author" content="Haroun Tanane" />
+    <meta
+      name="keywords"
+      content="AI Engineer, ingénieur IA, machine learning, MLOps, LLM, RAG, FastAPI, Docker, Python, portfolio, Haroun Tanane"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0a1020" />
+    <meta name="color-scheme" content="dark light" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph / Twitter (les URLs absolues sont ajoutées au build, voir vite.config.js) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Haroun Tanane" />
+    <meta property="og:title" content="Haroun Tanane — AI Engineer" />
+    <meta
+      property="og:description"
+      content="Machine learning, MLOps, LLM &amp; RAG : projets d'IA orientés production."
+    />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Haroun Tanane — AI Engineer" />
+    <meta
+      name="twitter:description"
+      content="Machine learning, MLOps, LLM &amp; RAG : projets d'IA orientés production."
+    />
+    %SEO_ABSOLUTE%
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Haroun Tanane",
+        "jobTitle": "AI Engineer",
+        "description": "AI Engineer spécialisé en machine learning, MLOps, LLM et RAG.",
+        "knowsAbout": ["Machine Learning", "MLOps", "LLM", "RAG", "Computer Vision", "FastAPI", "Docker", "Python"],
+        "sameAs": ["https://github.com/Marrackech", "https://huggingface.co/Marrackech"]
+      }
+    </script>
+
+    <!-- Applique le thème avant le premier rendu pour éviter un flash -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t !== 'light' && t !== 'dark') {
+            t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          }
+          document.documentElement.setAttribute('data-theme', t);
+          var m = document.querySelector('meta[name="theme-color"]');
+          if (m) m.setAttribute('content', t === 'dark' ? '#0a1020' : '#f5f7fb');
+          var l = localStorage.getItem('lang');
+          if (l === 'fr' || l === 'en') document.documentElement.lang = l;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      Haroun Tanane — AI Engineer. Ce portfolio nécessite JavaScript pour s'afficher.
+      GitHub : https://github.com/Marrackech
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

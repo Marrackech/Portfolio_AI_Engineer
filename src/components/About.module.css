@@ -1,0 +1,190 @@
+.section {
+  padding: var(--section-y) 0;
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* ---------- KPI (tableau de bord) ---------- */
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.kpi {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+  box-shadow: var(--shadow);
+}
+
+.kpiIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.kpiValue {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-size: clamp(1.9rem, 1.4rem + 1.6vw, 2.5rem);
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.kpiText {
+  font-size: clamp(1.45rem, 1.2rem + 1vw, 1.9rem);
+}
+
+.kpiUnit {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--text-muted);
+}
+
+.kpiLabel {
+  margin-top: 6px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+/* ---------- Carte profil ---------- */
+.profile {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--bg-elev);
+  box-shadow: var(--shadow);
+}
+
+.photoWrap {
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #0f1d3a;
+  aspect-ratio: 2.3 / 4;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardLabel {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.profileName {
+  margin-top: 10px;
+  font-size: clamp(1.5rem, 1.2rem + 1vw, 1.9rem);
+}
+
+.profileRole {
+  margin-top: 2px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.bio {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+  color: var(--text-muted);
+}
+
+.focusLabel {
+  margin-top: 26px;
+}
+
+.focus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.focus li {
+  padding: 6px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--bg-subtle);
+  font-size: 0.85rem;
+  font-weight: 550;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+@media (max-width: 960px) {
+  .kpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .profile {
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 28px;
+  }
+}
+
+@media (max-width: 680px) {
+  .profile {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 20px;
+  }
+  .photoWrap {
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .kpis {
+    gap: 12px;
+  }
+  .kpi {
+    padding: 16px;
+  }
+  .actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .profile {
+    padding: 16px;
+  }
+}
+
+/* Très petits écrans (320 px) : les KPI passent sur une colonne si le texte ne tient pas */
+@media (max-width: 340px) {
+  .kpis {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
